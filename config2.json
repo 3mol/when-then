@@ -1,0 +1,18 @@
+[
+  {
+    "when": "business-server",
+    "then": "business job"
+  },
+  {
+    "when": "admin-server",
+    "then": "admin job"
+  },
+  {
+    "when": "a",
+    "then": "aaaaa"
+  },
+  {
+    "when": "b",
+    "then": "bbbbb"
+  }
+]
