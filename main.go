@@ -14,8 +14,8 @@ import (
 )
 
 type Job struct {
-	When string `json:"when"`
-	Then string `json:"then"`
+	When string   `json:"when"`
+	Then []string `json:"then"`
 }
 
 func main() {
@@ -47,7 +47,9 @@ func processInput(jobs []Job) {
 		inputLine := scanner.Text()
 		for _, job := range jobs {
 			if job.When == inputLine {
-				fmt.Println(job.Then)
+				for _, j := range job.Then {
+					fmt.Println(j)
+				}
 				break
 			}
 		}

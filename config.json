@@ -1,18 +1,18 @@
 [
   {
     "when": "business-server",
-    "then": "business job"
+    "then": ["business job","c"]
   },
   {
     "when": "admin-server",
-    "then": "admin job"
+    "then": ["admin job","c"]
   },
   {
     "when": "a",
-    "then": "aa"
+    "then": ["aa","c"]
   },
   {
     "when": "b",
-    "then": "bb"
+    "then": ["bb","c"]
   }
 ]
